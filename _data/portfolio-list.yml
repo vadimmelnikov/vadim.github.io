@@ -1,0 +1,52 @@
+- name: Адаптивная верстка для Флота 
+  prev-img: ../img/flot-small.jpg
+  popup: popup-5
+  popop-op: 'Вертка 10 страниц 
+  <br>
+  http://vadimmelnikov.ru/flot/main.html
+  <br>
+  http://vadimmelnikov.ru/flot/about-us.html
+  <br>
+  http://vadimmelnikov.ru/flot/contact.html
+  <br>
+  http://vadimmelnikov.ru/flot/fleet.html
+  <br>
+  http://vadimmelnikov.ru/flot/form.html
+  <br>
+  http://vadimmelnikov.ru/flot/indexx.html
+  <br>
+  http://vadimmelnikov.ru/flot/news.html
+  <br>
+  http://vadimmelnikov.ru/flot/people.html
+  <br>
+  http://vadimmelnikov.ru/flot/search.html
+  <br>
+  http://vadimmelnikov.ru/flot/table.html '
+  popup-img: ../img/flot.jpg
+
+- name: Магазин AppleShop 
+  prev-img: ../img/apple-small.jpg
+  popup: popup-4
+  popop-op: 'http://vadimmelnikov.ru/appleshop/ '
+  popup-img: ../img/apple.jpg
+
+- name: Магазин Prokosmetik
+  prev-img: ../img/kosmetik-small.png
+  popup: popup-3
+  popop-op: 'На сайте работает демо-версия движка <br> http://prokosmetik.vadimmelnikov.ru/ <br> Фиксированная верстка 1256px, иконки под ретину'
+  popup-img: ../img/kosmetik.png
+
+- name: Салон Barbershop
+  prev-img: ../img/barber-small.jpg
+  popup: popup-2
+  popop-op: 'Крутая верстка для салона <br> http://vadimmelnikov.ru/barbershop/ <br> http://vadimmelnikov.ru/barbershop/catalog.html '
+  popup-img: ../img/barber.jpg
+
+- name: Студия Nerds
+  prev-img: ../img/ners-small.jpg
+  popup: popup-1
+  popop-op: 'Сайт студии дизайна в Краснодаре <br> http://vadimmelnikov.ru/Nerds/ <br> http://vadimmelnikov.ru/Nerds/catalog.html '
+  popup-img: ../img/ners.jpg
+
+
+
