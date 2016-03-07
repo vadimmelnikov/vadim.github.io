@@ -3,10 +3,13 @@ layout: page
 title: Портфолио
 permalink: /portfoilio/
 ---
-<div class="filter" data-filter="all">Show All</div>
-<div class="filter" data-filter=".category-1">Category 1</div>
-<div class="filter" data-filter=".category-2">Category 2</div>
-<div class="filter" data-filter=".category-3">Category 3</div>
+
+<div class="filter-container">
+    <div class="filter" data-filter="all">Все</div>
+    <div class="filter" data-filter=".category-1">Категория 1</div>
+    <div class="filter" data-filter=".category-2">Категория 2</div>
+    <div class="filter" data-filter=".category-3">Категория 3</div>
+</div>
 
 <ul class="portfolio-list">
     {% for member in site.data.portfolio-list %}
