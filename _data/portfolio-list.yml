@@ -23,30 +23,35 @@
   <br>
   http://vadimmelnikov.ru/flot/table.html '
   popup-img: ../img/flot.jpg
+  cat: category-1
 
 - name: Магазин AppleShop 
   prev-img: ../img/apple-small.jpg
   popup: popup-4
   popop-op: 'http://vadimmelnikov.ru/appleshop/ '
   popup-img: ../img/apple.jpg
+  cat: category-2
 
 - name: Магазин Prokosmetik
   prev-img: ../img/kosmetik-small.png
   popup: popup-3
   popop-op: 'На сайте работает демо-версия движка <br> http://prokosmetik.vadimmelnikov.ru/ <br> Фиксированная верстка 1256px, иконки под ретину'
   popup-img: ../img/kosmetik.png
+  cat: category-3
 
 - name: Салон Barbershop
   prev-img: ../img/barber-small.jpg
   popup: popup-2
   popop-op: 'Крутая верстка для салона <br> http://vadimmelnikov.ru/barbershop/ <br> http://vadimmelnikov.ru/barbershop/catalog.html '
   popup-img: ../img/barber.jpg
+  cat: category-2
 
 - name: Студия Nerds
   prev-img: ../img/ners-small.jpg
   popup: popup-1
   popop-op: 'Сайт студии дизайна в Краснодаре <br> http://vadimmelnikov.ru/Nerds/ <br> http://vadimmelnikov.ru/Nerds/catalog.html '
   popup-img: ../img/ners.jpg
+  cat: category-1
 
 
 

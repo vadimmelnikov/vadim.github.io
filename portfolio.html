@@ -3,10 +3,14 @@ layout: page
 title: Портфолио
 permalink: /portfoilio/
 ---
-<ul class="portfolio-list">
+<div class="filter" data-filter="all">Show All</div>
+<div class="filter" data-filter=".category-1">Category 1</div>
+<div class="filter" data-filter=".category-2">Category 2</div>
+<div class="filter" data-filter=".category-3">Category 3</div>
 
+<ul class="portfolio-list">
     {% for member in site.data.portfolio-list %}
-    <li class="portfolio-item">
+    <li class="mix portfolio-item filtr-item {{ member.cat }}">
         <div class="ehover1v2 hover">
             <img src="{{ member.prev-img }}" alt="{{ member.name }}">
             <div class="overlay">
