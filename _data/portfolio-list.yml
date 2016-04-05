@@ -1,4 +1,39 @@
-- name: Адаптивная верстка для Флота 
+- name: Veryzloi
+  prev-img: ../img/veryzloi.jpg
+  popup: popup-8
+  popop-op: 'Лендинг для системы бронирования билетов'
+  popup-img: ../img/veryzloi.jpg
+  cat: resp
+
+- name: Bream
+  prev-img: ../img/bream-small.jpg
+  popup: popup-7
+  popop-op: '
+  Верстка из AI в HTML Bream
+  <br>
+  http://vadimmelnikov.ru/bream/_index.html
+  <br>
+  http://vadimmelnikov.ru/bream/bascket.html
+  <br>
+  http://vadimmelnikov.ru/bream/cabinet.html
+  <br>
+  http://vadimmelnikov.ru/bream/item.html
+  <br>
+  http://vadimmelnikov.ru/bream/popup.html ( попап на ссылку вход)
+  <br>
+  http://vadimmelnikov.ru/bream/_index-logined.html
+  '
+  popup-img: ../img/bream.jpg
+  cat: fix
+
+- name: Tickets team
+  prev-img: ../img/ticketsteam-small.jpg
+  popup: popup-6
+  popop-op: 'Лендинг для системы бронирования билетов'
+  popup-img: ../img/ticketsteam.jpg
+  cat: fix
+
+- name: Адаптивная верстка для Флота
   prev-img: ../img/flot-small.jpg
   popup: popup-5
   popop-op: 'Вертка 10 страниц 
@@ -23,35 +58,35 @@
   <br>
   http://vadimmelnikov.ru/flot/table.html '
   popup-img: ../img/flot.jpg
-  cat: category-1
+  cat: adap
 
 - name: Магазин AppleShop 
   prev-img: ../img/apple-small.jpg
   popup: popup-4
   popop-op: 'http://vadimmelnikov.ru/appleshop/ '
   popup-img: ../img/apple.jpg
-  cat: category-2
+  cat: fix
 
 - name: Магазин Prokosmetik
   prev-img: ../img/kosmetik-small.png
   popup: popup-3
   popop-op: 'На сайте работает демо-версия движка <br> http://prokosmetik.vadimmelnikov.ru/ <br> Фиксированная верстка 1256px, иконки под ретину'
   popup-img: ../img/kosmetik.png
-  cat: category-3
+  cat: fix
 
 - name: Салон Barbershop
   prev-img: ../img/barber-small.jpg
   popup: popup-2
   popop-op: 'Крутая верстка для салона <br> http://vadimmelnikov.ru/barbershop/ <br> http://vadimmelnikov.ru/barbershop/catalog.html '
   popup-img: ../img/barber.jpg
-  cat: category-2
+  cat: fix
 
 - name: Студия Nerds
   prev-img: ../img/ners-small.jpg
   popup: popup-1
   popop-op: 'Сайт студии дизайна в Краснодаре <br> http://vadimmelnikov.ru/Nerds/ <br> http://vadimmelnikov.ru/Nerds/catalog.html '
   popup-img: ../img/ners.jpg
-  cat: category-1
+  cat: fix
 
 
 
