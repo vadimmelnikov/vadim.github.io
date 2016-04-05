@@ -1,7 +1,15 @@
 - name: Veryzloi
   prev-img: ../img/veryzloi.jpg
   popup: popup-8
-  popop-op: 'Лендинг для системы бронирования билетов'
+  popop-op: '
+  http://vadimmelnikov.ru/veryzloi/_index.html
+  <br>
+  http://vadimmelnikov.ru/veryzloi/portfolio.html
+  <br>
+  http://vadimmelnikov.ru/veryzloi/project.html
+  <br>
+  http://veryzloi.com/ru/main/
+  '
   popup-img: ../img/veryzloi.jpg
   cat: resp
 
