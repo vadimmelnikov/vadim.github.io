@@ -1,3 +1,14 @@
+- name: Ohta парк
+  prev-img: ../img/ohta-small.jpg
+  popup: popup-9
+  popop-op: '
+  http://vadimmelnikov.ru/land/new-index.html
+  <br>
+  http://vadimmelnikov.ru/land/build.html
+  '
+  popup-img: ../img/ohta.jpg
+  cat: resp
+
 - name: Veryzloi
   prev-img: ../img/veryzloi.jpg
   popup: popup-8
