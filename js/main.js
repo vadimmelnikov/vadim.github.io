@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+    // Попап
     $(function() {
         //----- OPEN
         $('[data-popup-open]').on('click', function(e) {
@@ -11,6 +13,8 @@ $(document).ready(function() {
             e.preventDefault();
         });
     });
+
+    // Открываем ссылки в новой вкладке
     $.fn.replaceUrl = function() {
             var regexp = /((ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?)/gi;
             this.each(function() {
@@ -19,13 +23,15 @@ $(document).ready(function() {
             });
             return $(this);
         }
-        // например, ищем ссылки в див'е mydiv
     $('.popup').replaceUrl();
 
-    // Filter
-
+    // Filter Фильтор
     //You can override any of these options and then call...
-    	$('.portfolio-list').mixItUp();
+    $('.portfolio-list').mixItUp();
 
+    // Ленивая загрузка
+    $('.portfolio-item').jscroll({
+        autoTrigger: false
+    });
 
 });
