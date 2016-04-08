@@ -30,8 +30,13 @@ $(document).ready(function() {
     $('.portfolio-list').mixItUp();
 
     // Ленивая загрузка
-    $('.portfolio-item').jscroll({
-        autoTrigger: false
-    });
+    // $('.portfolio-item').jscroll({
+    //     autoTriggerUntil: 2
+    // });
+    // $('.portfolio-list').jscroll({
+    //     autoTriggerUntil: 2,
+    //     contentSelector: '.portfolio-item'
+    // });
+
 
 });
