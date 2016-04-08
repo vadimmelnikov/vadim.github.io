@@ -29,7 +29,7 @@ $(document).ready(function() {
     //You can override any of these options and then call...
     $('.portfolio-list').mixItUp({
         animation: {
-            effects: 'fade',
+            effects: 'fade stagger(10ms)',
             staggerSequence: function(i){
                 return (2*i) - (5*((i/3) - ((1/3) * (i%3))));
             },
