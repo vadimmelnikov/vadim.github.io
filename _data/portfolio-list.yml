@@ -1,3 +1,35 @@
+- name: Calvin Klein
+  prev-img: ../img/ck-small.jpg
+  popup: popup-11
+  popop-op: '
+  http://ck2.letoile.ru/
+  <br>
+  http://vadimmelnikov.ru/projects/calvin-klein/_index.html
+  '
+  popup-img: ../img/ck.jpg
+  cat: adap
+
+- name: Прошей коня
+  prev-img: ../img/prosheykonya-small.jpg
+  popup: popup-10
+  popop-op: '
+  Магазин прошивок для автомобилей
+  <br>
+  http://vadimmelnikov.ru/projects/chip/_index.html
+  <br>
+  http://vadimmelnikov.ru/projects/chip/catalog1.html
+  <br>
+  http://vadimmelnikov.ru/projects/chip/catalog2.html
+  <br>
+  http://vadimmelnikov.ru/projects/chip/catalog3.html
+  <br>
+  http://vadimmelnikov.ru/projects/chip/catalog4.html
+  <br>
+  http://vadimmelnikov.ru/projects/chip/catalog5.html
+  '
+  popup-img: ../img/prosheykonya.jpg
+  cat: resp
+
 - name: Ohta парк
   prev-img: ../img/ohta-small.jpg
   popup: popup-9
