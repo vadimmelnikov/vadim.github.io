@@ -15,7 +15,7 @@ permalink: /portfoilio/
     {% for member in site.data.portfolio-list %}
     <li class="mix portfolio-item filtr-item {{ member.cat }}">
         <a data-popup-open="{{ member.popup }}" href="#" class="ehover1v2 hover">
-            <img class="lazy" data-src="{{ member.prev-img }}" src="blank.gif" alt="{{ member.name }}">
+            <img class="lazy" data-src="{{ member.prev-img }}" src="../img/load.svg" alt="{{ member.name }}">
             <div class="overlay">
                 <div class="portfolio-item__title">
                     <span class="portfolio-item__span">
@@ -24,21 +24,21 @@ permalink: /portfoilio/
                 </div>
             </div>
         </a>
-        <!--<div class="popup" data-popup="{{ member.popup }}">-->
-            <!--<div class="popup-wrapper">-->
-                <!--<h2 class="title-fira">{{ member.name }}</h2>-->
-                <!--<p>{{ member.popop-op }}</p>-->
-            <!--</div>-->
-                <!--<img class="popup-img lazy" src="{{ member.popup-img }}" alt="{{ member.name }}">-->
-                <!--<a class="b-close close-text" href="#">Закрыть</a>-->
-                <!--<a class="popup-close b-close" href="#">-->
-                    <!--<svg viewbox="0 0 40 40">-->
-                        <!--<path class="close-x" d="M 10,10 L 30,30 M 30,10 L 10,30" />-->
-                    <!--</svg>-->
-                <!--</a>-->
+        <div class="popup" data-popup="{{ member.popup }}">
+            <div class="popup-wrapper">
+                <h2 class="title-fira">{{ member.name }}</h2>
+                <p>{{ member.popop-op }}</p>
+            </div>
+                <img class="popup-img lazy" src="{{ member.popup-img }}" alt="{{ member.name }}">
+                <a class="b-close close-text" href="#">Закрыть</a>
+                <a class="popup-close b-close" href="#">
+                    <svg viewbox="0 0 40 40">
+                        <path class="close-x" d="M 10,10 L 30,30 M 30,10 L 10,30" />
+                    </svg>
+                </a>
 
 
-        <!--</div>-->
+        </div>
     </li>
     {% endfor %}
 </ul>

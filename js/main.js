@@ -27,8 +27,15 @@ $(document).ready(function() {
 
     // Filter Фильтор
     //You can override any of these options and then call...
-    $('.portfolio-list').mixItUp();
-
+    $('.portfolio-list').mixItUp({
+        animation: {
+            effects: 'fade',
+            staggerSequence: function(i){
+                return (2*i) - (5*((i/3) - ((1/3) * (i%3))));
+            },
+            queueLimit: 2
+        }
+    });
     // Ленивая загрузка
     // $('.portfolio-item').jscroll({
     //     autoTriggerUntil: 2

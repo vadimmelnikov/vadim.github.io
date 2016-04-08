@@ -53,7 +53,7 @@
   cat: resp
 
 - name: Veryzloi
-  prev-img: ../img/veryzloi.jpg
+  prev-img: ../img/veryzloi-small.jpg
   popup: popup-8
   popop-op: '
   http://vadimmelnikov.ru/veryzloi/_index.html
