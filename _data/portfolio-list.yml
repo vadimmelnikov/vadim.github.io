@@ -1,3 +1,14 @@
+- name: AMD lab
+  prev-img: ../img/amd-small.jpg
+  popup: popup-12
+  popop-op: '
+  Профессиональный уход за волосами и кожей головы
+  <br>
+  http://vadimmelnikov.ru/projects/AMD/_index.html
+  '
+  popup-img: ../img/amd.jpg
+  cat: adap
+
 - name: Calvin Klein
   prev-img: ../img/ck-small.jpg
   popup: popup-11
