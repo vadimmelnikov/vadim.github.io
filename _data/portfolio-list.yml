@@ -1,3 +1,30 @@
+- name: Inbase
+  prev-img: ../img/inbase/inbase--small.jpg
+  popup: popup-14
+  popop-op: '
+  inbase|content agency
+  <br>
+  http://vadimmelnikov.ru/projects/inbase/_index.html
+  <br>
+  http://inbase.me/
+  <br>
+  '
+  popup-img: ../img/inbase/inbase--small.jpg
+  cat: fix
+
+- name: Ofort Moscow
+  prev-img: ../img/ofort/ofort--small.jpg
+  popup: popup-13
+  popop-op: '
+  МАСТЕР-КЛАСС ПО ОФОРТУ
+  <br>
+  http://vadimmelnikov.ru/projects/ofort/_index.html
+  <br>
+  http://офорт.москва
+  '
+  popup-img: ../img/ofort/ofort.jpg
+  cat: resp
+
 - name: AMD lab
   prev-img: ../img/amd-small.jpg
   popup: popup-12
