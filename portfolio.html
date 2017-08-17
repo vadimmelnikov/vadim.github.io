@@ -1,44 +1,44 @@
-<!-- -&#45;&#45;-->
-<!--layout: page-->
-<!--title: Портфолио-->
-<!--permalink: /portfoilio/-->
-<!-- -&#45;&#45;-->
+---
+layout: page
+title: Портфолио
+permalink: /portfoilio/
+---
 
-<!--<div class="filter-container">-->
-    <!--<div class="filter" data-filter="all">Все</div>-->
-    <!--<div class="filter" data-filter=".fix">Fixed</div>-->
-    <!--<div class="filter" data-filter=".resp">Responsive</div>-->
-    <!--<div class="filter" data-filter=".adap">Adaptive</div>-->
-<!--</div>-->
+<div class="filter-container">
+    <div class="filter" data-filter="all">Все</div>
+    <div class="filter" data-filter=".fix">Fixed</div>
+    <div class="filter" data-filter=".resp">Responsive</div>
+    <div class="filter" data-filter=".adap">Adaptive</div>
+</div>
 
-<!--<ul class="portfolio-list">-->
-    <!--{% for member in site.data.portfolio-list %}-->
-    <!--<li class="mix portfolio-item filtr-item {{ member.cat }}">-->
-        <!--<a data-popup-open="{{ member.popup }}" href="#" class="ehover1v2 hover">-->
-            <!--<img class="lazy" data-src="{{ member.prev-img }}" src="../img/load.svg" alt="{{ member.name }}">-->
-            <!--<div class="overlay">-->
-                <!--<div class="portfolio-item__title">-->
-                    <!--<span class="portfolio-item__span">-->
-			        	<!--<span class="portfolio-item__decr btn">{{ member.name }}</span>-->
-		        	<!--</span>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</a>-->
-        <!--<div class="popup" data-popup="{{ member.popup }}">-->
-            <!--<div class="popup-wrapper">-->
-                <!--<h2 class="title-fira">{{ member.name }}</h2>-->
-                <!--<p>{{ member.popop-op }}</p>-->
-            <!--</div>-->
-                <!--<img class="popup-img lazy" src="{{ member.popup-img }}" alt="{{ member.name }}">-->
-                <!--<a class="b-close close-text" href="#">Закрыть</a>-->
-                <!--<a class="popup-close b-close" href="#">-->
-                    <!--<svg viewbox="0 0 40 40">-->
-                        <!--<path class="close-x" d="M 10,10 L 30,30 M 30,10 L 10,30" />-->
-                    <!--</svg>-->
-                <!--</a>-->
-        <!--</div>-->
-    <!--</li>-->
-    <!--{% endfor %}-->
-<!--</ul>-->
-<!--&lt;!&ndash;<img src="blank.gif" class="lazy" data-src="/images/full-size.jpg" width="240" height="152">&ndash;&gt;-->
+<ul class="portfolio-list">
+    {% for member in site.data.portfolio-list %}
+    <li class="mix portfolio-item filtr-item {{ member.cat }}">
+        <a data-popup-open="{{ member.popup }}" href="#" class="ehover1v2 hover">
+            <img class="lazy" data-src="{{ member.prev-img }}" src="../img/load.svg" alt="{{ member.name }}">
+            <div class="overlay">
+                <div class="portfolio-item__title">
+                    <span class="portfolio-item__span">
+			        	<span class="portfolio-item__decr btn">{{ member.name }}</span>
+		        	</span>
+                </div>
+            </div>
+        </a>
+        <div class="popup" data-popup="{{ member.popup }}">
+            <div class="popup-wrapper">
+                <h2 class="title-fira">{{ member.name }}</h2>
+                <p>{{ member.popop-op }}</p>
+            </div>
+                <img class="popup-img lazy" src="{{ member.popup-img }}" alt="{{ member.name }}">
+                <a class="b-close close-text" href="#">Закрыть</a>
+                <a class="popup-close b-close" href="#">
+                    <svg viewbox="0 0 40 40">
+                        <path class="close-x" d="M 10,10 L 30,30 M 30,10 L 10,30" />
+                    </svg>
+                </a>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+<!--<img src="blank.gif" class="lazy" data-src="/images/full-size.jpg" width="240" height="152">-->
 
