@@ -39,6 +39,7 @@
   <br>
   http://vadimmelnikov.ru/projects/eat/_shops.html
   <br>
+  http://eatgo.life/
   '
   popup-img: ../img/eat/eat.jpg
   cat: fix
@@ -76,7 +77,7 @@
   popop-op: '
   Профессиональный уход за волосами и кожей головы
   <br>
-  http://vadimmelnikov.ru/projects/AMD/_index.html
+  http://vadimmelnikov.ru/projects/amd/
   '
   popup-img: ../img/amd.jpg
   cat: resp
