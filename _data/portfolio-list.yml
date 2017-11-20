@@ -1,6 +1,17 @@
+- name: Landing
+  prev-img: ../img/yak/pic.jpg
+  popup: popup-19
+  popop-op: '
+  YAKISCHIK
+  <br>
+  http://vadimmelnikov.ru/projects/YAKISCHIK/_index.html
+  '
+  popup-img: ../img/yak/bicPic.jpg
+  cat: resp
+
 - name: Yan store
   prev-img: ../img/yan/yan--small.jpg
-  popup: popup-17с≠
+  popup: popup-17
   popop-op: '
   Yan store
   <br>
@@ -222,6 +233,7 @@
   popop-op: 'Сайт студии дизайна в Краснодаре <br> http://vadimmelnikov.ru/Nerds/ <br> http://vadimmelnikov.ru/Nerds/catalog.html '
   popup-img: ../img/ners.jpg
   cat: fix
+
 
 
 
