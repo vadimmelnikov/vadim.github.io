@@ -1,3 +1,28 @@
+
+- name: Trading 4 Pro
+  prev-img: ../img/t4p/smPic.jpg
+  popup: popup-20
+  popop-op: '
+  Trading 4 Pro
+  <br>
+  https://trading4pro.com/
+  <br>
+  https://trading4pro.com/product/chart
+  <br>
+  https://trading4pro.com/product/market-trends
+  <br>
+  https://trading4pro.com/enterprise/
+  <br>
+  https://trading4pro.com/trading-room/
+  <br>
+  https://trading4pro.com/widget/
+  <br>
+  https://trading4pro.com/contact/
+  '
+  popup-img: ../img/t4p/bigPic.jpg
+  cat: resp
+
+
 - name: Landing
   prev-img: ../img/yak/pic.jpg
   popup: popup-19
@@ -182,7 +207,7 @@
 - name: Адаптивная верстка для Флота
   prev-img: ../img/flot-small.jpg
   popup: popup-5
-  popop-op: 'Вертка 10 страниц 
+  popop-op: 'Вертка 10 страниц
   <br>
   http://vadimmelnikov.ru/flot/main.html
   <br>
@@ -206,7 +231,7 @@
   popup-img: ../img/flot.jpg
   cat: adap
 
-- name: Магазин AppleShop 
+- name: Магазин AppleShop
   prev-img: ../img/apple-small.jpg
   popup: popup-4
   popop-op: 'http://vadimmelnikov.ru/appleshop/ '
