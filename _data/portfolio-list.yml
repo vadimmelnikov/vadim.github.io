@@ -1,3 +1,42 @@
+- name: Visum Center
+  prev-img: ../img/visum-center/visum-center-small.jpg
+  popup: popup-22
+  popop-op: '
+  Visum Center
+  <br>
+  http://vadimmelnikov.ru/projects/visum-center/_index.html
+  <br>
+  http://vadimmelnikov.ru/projects/visum-center/agbs.html
+  <br>
+  http://vadimmelnikov.ru/projects/visum-center/belarus.html
+  <br>
+  http://vadimmelnikov.ru/projects/visum-center/terms.html
+  <br>
+  http://vadimmelnikov.ru/projects/visum-center/impressum.html
+  <br>
+  http://vadimmelnikov.ru/projects/visum-center/fragen.html
+  '
+  popup-img: ../img/visum-center/visum-center.jpg
+  cat: resp
+
+- name: Subu Sake
+  prev-img: ../img/subu/subu-small.jpg
+  popup: popup-21
+  popop-op: '
+  Flavour layered to perfection
+  <br>
+  Healthy food for the adventurous
+  <br>
+  http://subusake.com/
+  <br>
+  http://subusake.com/story.html
+  <br>
+  http://subusake.com/team.html
+  <br>
+  '
+  popup-img: ../img/subu/subu.jpg
+  cat: resp
+
 
 - name: Trading 4 Pro
   prev-img: ../img/t4p/smPic.jpg
